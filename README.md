@@ -259,7 +259,7 @@ void loop() {
 
 OpenAI API URL: https://platform.openai.com/account/api-keys
 ##### 4.
-
+https://youyouyou.pixnet.net/blog/post/119623728
 
 
 
