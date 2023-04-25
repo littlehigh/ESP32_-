@@ -211,7 +211,7 @@ const char* WIFI_SSID = "Pixel 4a";
 const char* WIFI_PASSWORD = "QWERtyuiop000";
 
 // Replace with your OpenAI API key
-const char* apiKey = "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";
+const char* apiKey = "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";
 
 void setup() {
   // Initialize Serial
@@ -226,9 +226,10 @@ void setup() {
       delay(1000);
   }
   Serial.println(WiFi.localIP());
-
+  
   // Send request to OpenAI API
-  String inputText = "How to become a better Hardware Engineer?";
+  String inputText = "請告訴我今天中央大學的氣溫是多少??";  
+  Serial.println(inputText);
   String apiUrl = "https://api.openai.com/v1/completions";
   String payload = "{\"prompt\":\"" + inputText + "\",\"max_tokens\":100, \"model\": \"text-davinci-003\"}";
 
